@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Card, Container, Row, Col, Button, Spinner } from "react-bootstrap";
+import { Card, Container, Row, Col, Button } from "react-bootstrap";
 
 class Movies extends Component {
   constructor(props) {
@@ -66,7 +66,7 @@ class Movies extends Component {
                           color: "inherit",
                           marginBottom: "20px",
                         }}
-                        target="_blank"
+                        target=" "
                         href={movie.link.url}
                       >
                         Watch
